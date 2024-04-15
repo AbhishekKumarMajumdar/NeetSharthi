@@ -3,7 +3,7 @@ import Image from "next/image";
 import Defualt from "@/Images/Products/defult.jpg"
 import Header from "@/components/Header";
 import Faq from "@/components/Faq";
-import { CallToAction } from "@/components/CallToAction";
+// import { CallToAction } from "@/components/CallToAction";
 import Review from "@/components/Review";
 import Text from "@/components/Text";
 import BasicCard from "@/components/BasicCard";
@@ -93,7 +93,7 @@ export default function Home() {
 
       ))}
       <Teacher />
-      <CallToAction />
+      {/* <CallToAction /> */}
       <Faq />
       <Review />
     </>
