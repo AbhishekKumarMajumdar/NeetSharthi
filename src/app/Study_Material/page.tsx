@@ -17,7 +17,7 @@ const page = () => {
                         Send following details on Neet Sarthi student care No. +91-8090908042  <br /><br />
                         Your Name & Father Name<br />
                         Residential address with PIN Code<br />
-                        Contact person's number<br />
+                        Contact persons number<br />
                         Package you want to buy (NEET or JEE)<br />
                         Transaction ID or screen shot of payment<br />
                         Sarthee NEET Guru Academy LLP <br />
