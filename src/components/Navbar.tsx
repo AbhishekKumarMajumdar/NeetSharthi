@@ -110,8 +110,8 @@ const Navbar = () => {
                                 <div onMouseLeave={() => setTest(false)}
                                     className={` top-full -left-[50%] mt-2 bg-[#e8e3f8] shadow-lg rounded-md py-2 w-48 z-10 ${test ? "absolute" : "hidden"}`}>
                                     <Link href="/Study_Material" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Pre Nurture</Link>
-                                    <Link href="/Samagra" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Neet</Link>
-                                    <Link href="/Ntse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Jee</Link>
+                                    <Link href="/Neet" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Neet</Link>
+                                    <Link href="/Jee" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Jee</Link>
                                 </div>
                             </li>
                             <li className="text-lg font-bold "><Link href="/Careers" className="transition duration-300 focus:outline-none focus:underline hover:underline">Test Series</Link></li>

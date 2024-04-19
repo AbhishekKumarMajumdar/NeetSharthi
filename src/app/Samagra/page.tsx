@@ -23,8 +23,8 @@ const page = () => {
                         Are you preparing for the NEET or JEE exams? Are you looking for a reliable recorded lecture course to help with your preparation? If yes, then we have just the perfect solution for you!We are offering an exclusive Recorded Lecture Course specifically designed to help students prepare and ace their NEET/JEE exams. The course includes 10000+ quality questions prepared by 20+ top Kota faculties along with DPPs, chapter-wise practice tests with solutions and PYQ	&#39;	s. We also provide performance analysis reports which will help identify weak areas in order to focus more on them during preparation. The best part is that all of these contents can be accessed through our mobile app as well as website so that it becomes easier for students to access them from anywhere at any time they want without having any restrictions or limitations whatsoever. Moreover, if there is anything that needs clarification or further explanation then doubt clarification can be done via App chat, Telegram and Live session too!And not only this but every week we offer live tests followed by live doubt sessions where all queries will be answered promptly ensuring complete satisfaction of our students who trust us wholeheartedly when it comes down to exam preparations! So what are you waiting for? Get enrolled into this amazing program today itself and start working towards acing your NEET/JEE examinations successfully with ease & comfort while enjoying the perks of being associated with us throughout this journey called life!!.
                     </div>
                     <button className="rounded-lg px-4 py-2 bg-[#fff] text-bold text-black hover:bg-blue-600 hover:text-blue-100 duration-300">Buy now</button>
-
                 </div>
+
             </section>
         </>
     )

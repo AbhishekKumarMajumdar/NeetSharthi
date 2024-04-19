@@ -9,6 +9,8 @@ import Logo from "@/Images/Logo/Logo.png"
 import Image from 'next/image';
 import Link from 'next/link';
 import Banner from "@/Images/Banner/Banner.jpg"
+import Nse from "@/Images/Banner/Smp2.png"
+import Nse2 from "@/Images/Banner/Smp.png"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
@@ -35,14 +37,23 @@ export default function Header() {
                             width={1280} height={720} objectFit="cover"
                         />
                     </SwiperSlide>
-                    <SwiperSlide>Slide 2</SwiperSlide>
-                    <SwiperSlide>Slide 3</SwiperSlide>
-                    <SwiperSlide>Slide 4</SwiperSlide>
-                    <SwiperSlide>Slide 5</SwiperSlide>
-                    <SwiperSlide>Slide 6</SwiperSlide>
-                    <SwiperSlide>Slide 7</SwiperSlide>
-                    <SwiperSlide>Slide 8</SwiperSlide>
-                    <SwiperSlide>Slide 9</SwiperSlide>
+                    <SwiperSlide>
+                        <Image
+                            src={Nse}
+                            alt="Header Image"
+                            className='w-[100%] h-[100%]'
+                            width={1280} height={720} objectFit="cover"
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image
+                            src={Nse2}
+                            alt="Header Image"
+                            className='w-[100%] h-[100%]'
+                            width={1280} height={720} objectFit="cover"
+                        />
+                    </SwiperSlide>
+
                 </Swiper>
 
             </section>        </>
