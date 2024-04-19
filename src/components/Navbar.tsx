@@ -9,6 +9,7 @@ import Link from 'next/link';
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
     const [opneSubMenu, setOpenSubMenu] = useState(false)
+    const [test, setTest] = useState(false)
 
     return (
         // <>
@@ -90,23 +91,30 @@ const Navbar = () => {
                     <div className="hidden md:flex md:pl-32 ">
                         <ul className="hidden md:flex md:gap-6">
                             <li className="text-lg font-bold relative">
-                                <Link href="/Courses" className="transition duration-300 relative focus:outline-none focus:underline hover:underline"
+                                <div className="transition duration-300 relative focus:outline-none focus:underline hover:underline"
                                     onMouseEnter={() => setOpenSubMenu(true)}
-                                >Courses</Link>
+                                >Courses</div>
                                 <div onMouseLeave={() => setOpenSubMenu(false)}
                                     className={` top-full -left-[50%] mt-2 bg-[#e8e3f8] shadow-lg rounded-md py-2 w-48 z-10 ${opneSubMenu ? "absolute" : "hidden"}`}>
                                     <Link href="/Courses" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Popular Courses</Link>
-
                                     <Link href="/Samagra" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Samagra Neet Jee-2024</Link>
                                     <Link href="/Ntse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class-X NTSE</Link>
                                     <Link href="/Nse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class-X IJSO</Link>
-                                    {/* Add more submenu items as needed */}
                                 </div>
                             </li>
                             <li className="text-lg font-bold "><Link href="/About" className="transition duration-300 focus:outline-none focus:underline hover:underline">About us</Link></li>
-                            <li className="text-lg font-bold "><Link href="/Study_Material" className="transition duration-300 focus:outline-none focus:underline hover:underline">Study Material</Link></li>
+                            <li className="text-lg font-bold relative">
+                                <div className="transition duration-300 relative focus:outline-none focus:underline hover:underline"
+                                    onMouseEnter={() => setTest(true)}
+                                >Study Material</div>
+                                <div onMouseLeave={() => setTest(false)}
+                                    className={` top-full -left-[50%] mt-2 bg-[#e8e3f8] shadow-lg rounded-md py-2 w-48 z-10 ${test ? "absolute" : "hidden"}`}>
+                                    <Link href="/Study_Material" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Pre Nurture</Link>
+                                    <Link href="/Samagra" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Neet</Link>
+                                    <Link href="/Ntse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Jee</Link>
+                                </div>
+                            </li>
                             <li className="text-lg font-bold "><Link href="/Careers" className="transition duration-300 focus:outline-none focus:underline hover:underline">Test Series</Link></li>
-                            {/* <li className="text-md pr-8">Link href="/Careers" className="transition duration-300 focus:outline-none focus:underline hover:underline">Careers</Link></li> */}
                             <li className="text-lg font-bold "><Link href="/" className="transition duration-300 focus:outline-none focus:underline hover:underline">More</Link></li>
                         </ul>
                     </div>
