@@ -13,6 +13,8 @@ import Teacher from "@/components/Teacher";
 import Ten from "@/Images/Banner/10.png"
 import Samagra from "@/Images/Banner/Samagra.png"
 import DAKSH from "@/Images/Banner/Daksh.png"
+import Contect from "@/components/Contect";
+import Application from "@/components/Application";
 export default function Home() {
 
   const data = [
@@ -93,9 +95,11 @@ export default function Home() {
 
       ))}
       <Teacher />
+      <Application />
       <CallToAction />
       <Faq />
       <Review />
+      <Contect />
     </>
   );
 }

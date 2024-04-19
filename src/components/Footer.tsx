@@ -92,7 +92,7 @@ const Footer = () => {
                     <div className="text-center sm:flex sm:justify-between sm:text-left">
 
                         <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-                            &copy; 2024 Copyright NEETSarthi. All rights reserved.
+                            &copy; 2024 Copyright NEETSarthi. & Design by OSCode &trade; All rights reserved.
                         </p>
                     </div>
                 </div>

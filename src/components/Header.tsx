@@ -12,7 +12,7 @@ const Header = () => {
 
     return (
         <>
-            <section className="w-[100vw] h-[90vh]">
+            <section className="w-[100vw] h-[250px] md:h-[90vh]">
                 <Image
                     src={Banner}
                     alt="Header Image"

@@ -9,7 +9,7 @@ const Review = () => {
                 <div className="w-full flex justify-center items-center flex-col py-8">
                     <div className="flex flex-col md:flex-row justify-evenly w-full px-1 md:px-20">
 
-                        <div className="flex flex-col gap-2 max-w-md  bg-white dark:bg-neutral-900 p-5 rounded-md mt-8 shadow-md hover:scale-105 hover:duration-150 duration-150">
+                        <div className="flex flex-col gap-2 max-w-md  bg-white  p-5 rounded-md mt-8 shadow-md hover:scale-105 hover:duration-150 duration-150">
                             <div className="flex flex-row justify-between ">
                                 <div className="flex flex-row justify-between w-full">
                                     <p className="text-xs">John Doe</p>
@@ -45,7 +45,7 @@ const Review = () => {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, sed dapibus eros.
                             </div>
                         </div>
-                        <div className="flex flex-col gap-2 max-w-md  bg-white dark:bg-neutral-900 p-5 rounded-md mt-8 shadow-md hover:scale-105 hover:duration-150 duration-150">
+                        <div className="flex flex-col gap-2 max-w-md  bg-white  p-5 rounded-md mt-8 shadow-md hover:scale-105 hover:duration-150 duration-150">
                             <div className="flex flex-row justify-between ">
                                 <div className="flex flex-row justify-between w-full">
                                     <p className="text-xs">John Doe</p>

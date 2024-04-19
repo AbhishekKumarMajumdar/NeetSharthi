@@ -20,7 +20,7 @@ const CourseSection = ({ data }: any) => {
                     </ul>
                 </div>
                 <div className={`w-[100%] h-[100%]  ${direction ? " bg-[#fff] " : "bg-[#e8e3f8]"}  flex flex-col justify-center items-center`}>
-                    <div className="w-[60%] h-[50%] my-6">
+                    <div className="md:w-[60%] md:h-[50%] w-[100%] my-6">
                         <Image
                             src={img.src}
                             alt="Header Image"
@@ -28,10 +28,10 @@ const CourseSection = ({ data }: any) => {
                             width={1280} height={720} objectFit="cover"
                         />
                     </div>
-                    <div className="flex flex-row gap-32 mt-6">
+                    {/* <div className="flex flex-row gap-32 mt-6">
                         <button className="rounded-lg px-4 py-2 border-2 border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-blue-100 duration-300">FREE DEMO</button>
                         <button className="rounded-lg px-4 py-2 border-2 border-blue-500 text-blue-500 hover:bg-blue-600 hover:text-blue-100 duration-300">BUY NOW</button>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </>

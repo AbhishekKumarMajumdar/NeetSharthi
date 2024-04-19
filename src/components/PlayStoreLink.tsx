@@ -1,14 +1,14 @@
 import Link from 'next/link'
 import Image from "next/image"
 import clsx from 'clsx'
-import logoPlayStore from "@/images/SVG/google-play-badge.svg"
+import logoPlayStore from "@/Images/Banner/playstore.png"
 
 export function PlayStoreLink() {
   return (
     <Link
-      href="https://play.google.com/store/apps/details?id=com.odyssey.meeting"
+      href="/"
     >
-      <Image src={logoPlayStore} alt={"Play Store Logo"} />
+      <Image src={logoPlayStore} className=' w-36' alt={"Play Store Logo"} />
     </Link>
   )
 }
