@@ -15,7 +15,7 @@ const page = () => {
                 />
 
             </section>
-            <section className="w-full py-4 lg:py-12 flex flex-col justify-center items-center px-6  md:px-10 lg:px-20 bg-[#fff]">
+            <section className="w-full h-auto py-4 lg:py-12 flex flex-col justify-center items-center px-6  md:px-10 lg:px-20 bg-[#fff]">
 
                 <div className="lg:w-[80%] w-full h-auto lg:h-auto py-8 rounded-xl flex flex-col   items-center bg-[#151F63]">
                     <h1 className='text-2xl ml-4 md:ml-0 pt-6 md:text-4xl text-white font-bold'>NTSE(National Talent Search Examination)</h1>

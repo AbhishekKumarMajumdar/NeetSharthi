@@ -7,7 +7,7 @@ const page = () => {
             <section className="w-full pb-12 flex flex-col justify-center items-center px-6 md:px-10 lg:px-20 bg-[#151F63]">
                 <h1 className="text-center text-xl sm:text-2xl md:text-4xl w-full py-6 text-[#fff] leading-[40px] md:leading-[65px]">
                     Your Sarthi for Foundation/NEET/JEE/CUET Preparation                </h1>
-                <div className="md:w-[70%] w-[90%] h-auto md:h-[70vh] bg-white">
+                <div className="md:w-[70%] w-[90%] h-auto md:h-[70vh]  bg-white">
                     <h1 className="text-center font-bold text-xl sm:text-2xl md:text-3xl w-full py-6 text-[#151f63] leading-[40px] md:leading-[65px]">
                         About NEET Sarthi KOTA
                     </h1>
