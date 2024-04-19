@@ -98,8 +98,8 @@ const Navbar = () => {
                                     <Link href="/Courses" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Popular Courses</Link>
 
                                     <Link href="/Samagra" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Samagra Neet Jee-2024</Link>
-                                    <Link href="/course1" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class-X NTSE</Link>
-                                    <Link href="/course2" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class-X IJSO</Link>
+                                    <Link href="/Ntse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class-X NTSE</Link>
+                                    <Link href="/Nse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class-X IJSO</Link>
                                     {/* Add more submenu items as needed */}
                                 </div>
                             </li>
@@ -130,8 +130,8 @@ const Navbar = () => {
                                 <Link href="/Courses" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Popular Courses</Link>
                                 <Link href="/Samagra" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Samagra Neet Jee-2024</Link>
 
-                                <Link href="/course1" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class-X NTSE</Link>
-                                <Link href="/course2" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class-X IJSO</Link>
+                                <Link href="/Ntse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class-X NTSE</Link>
+                                <Link href="/Nse" className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-200">Class-X IJSO</Link>
                                 {/* Add more submenu items as needed */}
                             </div>
                         </div>
