@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import ntse from "@/Images/Banner/NTSE.png"
-import Teacher from '@/components/Teacher'
+import Video from '@/components/Video'
 const page = () => {
 
     return (
@@ -35,7 +35,7 @@ const page = () => {
 
                 </div>
             </section>
-            <Teacher />
+            <Video />
         </>
     )
 }
