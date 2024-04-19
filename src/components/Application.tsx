@@ -70,7 +70,7 @@ const Application = () => {
             <section className="w-full px-6 py-10 md:px-10 lg:px-20  flex flex-col-reverse md:flex-row">
                 <div className="p-2 w-[100%]  flex flex-col gap-4">
                     {Data.map((item) => (
-                        <div key={item.id} className="flex flex-row py-2 px-6 justify-center gap-20">
+                        <div key={item.id} className="flex flex-row py-2 px-6 justify-center gap-10 md:gap-20">
                             <div className="flex justify-center items-center">
                                 <item.icon size={60} color='#FF6161' />
                             </div>

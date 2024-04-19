@@ -1,6 +1,12 @@
 import CourseSection from '@/components/CourseSection'
 import React from 'react'
 
+import Ten from "@/Images/Banner/10.png"
+
+import Samagra from "@/Images/Banner/Samagra.png"
+
+import DAKSH from "@/Images/Banner/Daksh.png"
+
 const page = () => {
     const data = [
         {
@@ -16,7 +22,7 @@ const page = () => {
             ],
             buyLink: "/",
             DemoLink: "/",
-            img: "https://via.placeholder.com/1280x720",
+            img: Ten,
             direction: true,
         },
         {
@@ -33,7 +39,7 @@ const page = () => {
             ],
             buyLink: "/",
             DemoLink: "/",
-            img: "https://via.placeholder.com/1280x720",
+            img: Samagra,
             direction: false,
         },
         {
@@ -49,7 +55,7 @@ const page = () => {
             ],
             buyLink: "/",
             DemoLink: "/",
-            img: "https://via.placeholder.com/1280x720",
+            img: DAKSH,
             direction: true,
         },
         {
@@ -66,7 +72,7 @@ const page = () => {
             ],
             buyLink: "/",
             DemoLink: "/",
-            img: "https://via.placeholder.com/1280x720",
+            img: DAKSH,
             direction: false,
         },
     ]
