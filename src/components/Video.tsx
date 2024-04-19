@@ -31,7 +31,13 @@ const Video = () => {
                         <div key={e.link} className="">
                             <div className="flex flex-col">
                                 <div className="md:w-[27rem] overflow-hidden w-[21rem] h-[12rem] md:h-[15rem] bg-black rounded-xl">
-                                    <iframe width="100%" height="100%" src={e.src} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                                </div>
+                                    <iframe
+                                        width="100%"
+                                        height="100%"
+                                        src={e.src}
+                                        title="YouTube video player"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    ></iframe>                                                                  </div>
                                 <h1 className='py-2 text-xl font-bold'>{e.subject}</h1>
                             </div>
                         </div>
