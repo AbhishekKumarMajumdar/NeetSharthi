@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import Image from 'next/image'
-import Logo from "@/Images/Banner/Logo.png"
+import Logo from "@/Images/Logo/Logo.png"
 import { FiMenu } from "react-icons/fi";
 import Link from 'next/link';
 
@@ -115,7 +115,7 @@ const Navbar = () => {
                                 </div>
                             </li>
                             <li className="text-lg font-bold "><Link href="/Careers" className="transition duration-300 focus:outline-none focus:underline hover:underline">Test Series</Link></li>
-                            <li className="text-lg font-bold "><Link href="/" className="transition duration-300 focus:outline-none focus:underline hover:underline">More</Link></li>
+                            <li className="text-lg font-bold "><Link href="/More" className="transition duration-300 focus:outline-none focus:underline hover:underline">More</Link></li>
                         </ul>
                     </div>
 
@@ -149,7 +149,7 @@ const Navbar = () => {
                         <Link href="/Study_Material" className="block text-gray-200 cursor-pointer mt-1 py-3 transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-yellow-500">Study Material</Link>
                         <Link href="/Careers" className="block text-gray-200 cursor-pointer mt-1 py-3 transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-yellow-500">Test Series</Link>
                         {/* <Link href="/Careers" className="block text-gray-200 cursor-pointer mt-1 py-3 transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-yellow-500">Careers</Link> */}
-                        <Link href="/" className="block text-gray-200 cursor-pointer mt-1 py-3 transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-yellow-500">More</Link>
+                        <Link href="/More" className="block text-gray-200 cursor-pointer mt-1 py-3 transition duration-300 focus:outline-none focus:text-yellow-500 focus:underline hover:underline hover:text-yellow-500">More</Link>
                     </div>
                 </div>
             </nav>

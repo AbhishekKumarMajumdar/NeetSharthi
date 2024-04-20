@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Logo from "@/Images/Banner/Logo.png"
+import Logo from "@/Images/Logo/Logo.png"
 const Footer = () => {
     return (
         <footer className="bg-gray-900">
@@ -16,7 +16,7 @@ const Footer = () => {
                     </div>
 
                     <div
-                        className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 md:grid-cols-4"
+                        className="grid grid-cols-3 gap-8 sm:grid-cols-2 lg:col-span-2 md:grid-cols-4"
                     >
                         <div className="text-center sm:text-left">
                             <p className="text-lg font-medium text-white">Company</p>
