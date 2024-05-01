@@ -18,7 +18,7 @@ const page = () => {
 
             </section>
             <section className="w-full  py-4 lg:py-12 flex flex-col justify-center items-center px-6  md:px-10 lg:px-20 bg-[#fff]">
-                <div className="lg:w-[80%] w-full h-auto lg:h-[75vh] py-4 flex flex-col justify-center items-center rounded-xl bg-[#151F63]">
+                <div className="lg:w-[80%] w-full h-auto lg:h-[85vh] py-4 flex flex-col justify-center items-center rounded-xl bg-[#151F63]">
                     <h1 className="text-center font-bold text-xl sm:text-2xl md:text-3xl w-full py-6 text-[#fff] leading-[40px] md:leading-[65px]">
                         How can you buy it?
                     </h1>
